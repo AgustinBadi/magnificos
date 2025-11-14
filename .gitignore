@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# TypeScript
+*.js.map
+*.d.ts.map
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# On-chain specific (Aiken/Plutus)
+src/on-chain/artifacts/
+src/on-chain/plutus.json
+src/on-chain/*.uplc
+src/on-chain/*.cbor
+
+# TX specific (TypeScript/Node.js)
+src/tx/dist/
+src/tx/node_modules/
+src/tx/*.log
+
+# Secrets and keys (NEVER commit these!)
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+keys/
+wallet.json
+seed.txt
+mnemonic.txt

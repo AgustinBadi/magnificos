@@ -1,0 +1,28 @@
+{
+  "name": "tx",
+  "version": "1.0.0",
+  "description": "TypeScript project for transaction handling",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@meshsdk/core": "^1.9.0-beta.87",
+    "@meshsdk/core-csl": "^1.9.0-beta.87",
+    "commander": "^14.0.2"
+  }
+}
